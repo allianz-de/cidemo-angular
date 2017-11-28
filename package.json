@@ -6,7 +6,7 @@
   "description": "AngularJS Frontend for continuous integration demo",
   "repository": {
     "type": "git",
-    "url": "https://github.com/AllianzDeutschlandAG/cidemo-frontend"
+    "url": "https://github.com/allianz-de/cidemo-frontend"
   },
   "scripts": {
     "ng": "ng",

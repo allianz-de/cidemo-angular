@@ -1,6 +1,6 @@
 # CI Demo - a JavaScript SPA Frontend
 
-This is a simple single-page-application (SPA) frontend for the [JavaScript CI Demo](https://github.com/AllianzDeutschlandAG/cidemo). Why should anyone bother with continuous integration? According to [ThoughtWorks](https://www.thoughtworks.com/continuous-integration):
+This is a simple single-page-application (SPA) frontend for the [JavaScript CI Demo](https://github.com/allianz-de/cidemo). Why should anyone bother with continuous integration? According to [ThoughtWorks](https://www.thoughtworks.com/continuous-integration):
 
 > Continuous Integration (CI) is a development practice that requires developers to integrate code into a shared repository several times a day. Each check-in is then verified by an automated build, allowing teams to detect problems early. 
 
@@ -13,7 +13,7 @@ With this demo project, we want automate and achieve the following:
 
 ## Continuous Integration
 
-For the purposes of the CI Demo, the frontend is a separate git submodule so that our [Jenkins](https://github.com/AllianzDeutschlandAG/cidemo-jenkins) can individually detect and build changes here.
+For the purposes of the CI Demo, the frontend is a separate git submodule so that our [Jenkins](https://github.com/allianz-de/cidemo-jenkins) can individually detect and build changes here.
 
 Our Pipeline is defined in the [`Jenkinsfile`](./Jenkinsfile), with the following critical CI steps
 
