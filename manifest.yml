@@ -6,4 +6,5 @@ applications:
   target: dist
   instances: 1
   env:
-    API_ENDPOINT: https://cidemo-mw.local.pcfdev.io
+    LOGIN_API_ENDPOINT: https://cidemo-auth-mock.cfapps.io
+    HISTORY_API_ENDPOINT: https://cidemo-history-service.cfapps.io
