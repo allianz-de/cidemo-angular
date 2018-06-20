@@ -89,23 +89,4 @@ pipeline {
             }
         }
     }
-
-    // post {
-    //     success {
-    //         script {
-    //             createArtifact {
-    //                 prefix = 'artifact-'
-    //                 version = nextVersion()
-    //                 sha = buildCommitSha()
-    //             }
-
-    //             uploadToArtifactory {
-    //                 pattern = 'artifact-*.zip'
-    //                 target = 'snapshot-local/cidemo-frontend/'
-    //             }
-
-    //             cleanUpArtifacts()
-    //         }
-    //     }
-    // }
 }
