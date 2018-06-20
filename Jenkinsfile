@@ -18,7 +18,7 @@ pipeline {
     }
 
     tools {
-        nodejs 'node-7'
+        nodejs 'node-10'
     }
 
     stages {

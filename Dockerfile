@@ -1,4 +1,4 @@
-FROM node:8
+FROM node:10
 MAINTAINER Julie Ng <julie.ng@allianz.de>
 
 WORKDIR /workspace
